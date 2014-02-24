@@ -282,7 +282,7 @@ namespace RMA.RhiExec.Model
         return 1;
 
       // See if version numbers differ
-      int comp = this.VersionNumber.CompareTo(cf);
+      int comp = this.VersionNumber.CompareTo(cf.VersionNumber);
       if (comp != 0)
         return comp;
 
